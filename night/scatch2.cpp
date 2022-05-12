@@ -1,16 +1,12 @@
 #include<iostream>
 #include<math.h>
+#define PI 3.14
+#define ll long long int
 using namespace std;
+const float pi=3.14;
 
 int main()
 {
-    int d=12;
-    for (int i=0;i<10;i++)
-    {
-        for (int j=0;j<10;j++)
-        {
-            printf("%10d",i*j);
-        }
-        printf("\n");
-    }
+    double a=exp(2);
+    printf("%f",a);
 }
